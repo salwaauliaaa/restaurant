@@ -1,0 +1,65 @@
+.table-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .table-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .table-img img {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+  
+  .table-form {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .table-form h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .btn-submit {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #c9302c;
+  }
+  
+  @media (max-width: 768px) {
+    .table-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
