@@ -24,18 +24,19 @@ header {
   display: flex;
   gap:80px;
   position: sticky;
+  font-weight: bold;
 }
 
 .nav-links li a {
   text-decoration: none;
   color: #333;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
-.nav-links li a:hover {
+/* .nav-links li a:hover {
   color: #e63946;
-}
+} */
 
 .book-btn {
   background-color: #e63946;
